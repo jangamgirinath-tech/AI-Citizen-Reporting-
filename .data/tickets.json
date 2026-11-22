@@ -1,0 +1,211 @@
+[
+  {
+    "id": "STL-4082",
+    "title": "Deep asphalt pothole at school crosswalk edge",
+    "category": "pothole",
+    "status": "dispatched",
+    "severity": "high",
+    "estimatedSizeOrFlow": "45 cm wide · 12 cm deep",
+    "confidenceScore": 95,
+    "requiresHumanReview": false,
+    "locationLabel": "Oakwood Elementary North Gate, Elm St",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "affectedCount": 37,
+    "createdAt": "2026-11-20T22:19:27.551Z",
+    "updatedAt": "2026-11-22T14:19:27.551Z",
+    "officialLanguage": "English",
+    "officialSummary": "High-priority 45 cm asphalt crater along yellow school crosswalk on Elm St near Oakwood Elementary north gate. Ongoing for ~14 days; presents tripping and vehicle axle hazard during school drop-off.",
+    "extractedDetails": [
+      "Near Oakwood Elementary north crosswalk",
+      "Reported persistent for 2 weeks",
+      "Adjacent to curb gutter seam"
+    ],
+    "originalTranscript": "Está justo frente a la entrada de la escuela Oakwood, lleva así dos semanas.",
+    "detectedLanguage": "Spanish",
+    "privacyRedactedCount": 0,
+    "evidence": [
+      {
+        "id": "ev-101",
+        "submittedAt": "2026-11-20T22:19:27.551Z",
+        "imageUrl": "/src/assets/images/pothole_school_gate_1795364072921.jpg",
+        "voiceNoteOriginal": "Está justo frente a la entrada de la escuela Oakwood, lleva así dos semanas.",
+        "voiceLanguage": "Spanish",
+        "reporterTrustTier": "trusted"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2026-11-20T22:19:27.551Z",
+        "actor": "Citizen Intake",
+        "message": "Initial photo + Spanish voice note verified by vision pipeline.",
+        "status": "ai_verified"
+      },
+      {
+        "timestamp": "2026-11-22T04:19:27.551Z",
+        "actor": "Duplicate Clusterer",
+        "message": "36 nearby citizen confirmations merged within 35 m radius.",
+        "status": "ai_verified"
+      },
+      {
+        "timestamp": "2026-11-22T14:19:27.551Z",
+        "actor": "Public Works Dispatch",
+        "message": "Assigned to Road Crew Unit 4 for cold-patch & resurfacing.",
+        "status": "dispatched"
+      }
+    ],
+    "aiCorrectionLog": []
+  },
+  {
+    "id": "STL-4079",
+    "title": "Storm drain backing up with murky runoff",
+    "category": "sewage_overflow",
+    "status": "ai_verified",
+    "severity": "critical",
+    "estimatedSizeOrFlow": "Continuous curb overflow · ~18 L/min",
+    "confidenceScore": 91,
+    "requiresHumanReview": false,
+    "locationLabel": "4th Ave & Cedar St Storm Grate",
+    "lat": 37.7762,
+    "lng": -122.4178,
+    "affectedCount": 14,
+    "createdAt": "2026-11-21T22:19:27.551Z",
+    "updatedAt": "2026-11-22T11:19:27.551Z",
+    "officialLanguage": "English",
+    "officialSummary": "Blocked cast-iron storm drain at 4th Ave and Cedar St causing murky water and silt overflow across pedestrian curb apron. Pedestrian crossing partially submerged; 1 vehicle plate blurred.",
+    "extractedDetails": [
+      "Intersection of 4th Ave and Cedar St",
+      "Water pooling onto pedestrian sidewalk",
+      "Foul odor reported by commuters"
+    ],
+    "originalTranscript": "Drain is overflowing onto the sidewalk at 4th and Cedar.",
+    "detectedLanguage": "English",
+    "privacyRedactedCount": 1,
+    "evidence": [
+      {
+        "id": "ev-102",
+        "submittedAt": "2026-11-21T22:19:27.551Z",
+        "imageUrl": "/src/assets/images/sewage_overflow_drain_1795364073243.jpg",
+        "voiceNoteOriginal": "Drain is overflowing onto the sidewalk at 4th and Cedar.",
+        "voiceLanguage": "English",
+        "reporterTrustTier": "trusted"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2026-11-21T22:19:27.551Z",
+        "actor": "Citizen Intake",
+        "message": "Photo passed clarity check; 1 license plate automatically blurred.",
+        "status": "ai_verified"
+      },
+      {
+        "timestamp": "2026-11-22T11:19:27.551Z",
+        "actor": "Duplicate Clusterer",
+        "message": "13 additional neighborhood reports merged.",
+        "status": "ai_verified"
+      }
+    ],
+    "aiCorrectionLog": []
+  },
+  {
+    "id": "STL-4074",
+    "title": "Overflowing bin and dumped cardboard along sidewalk",
+    "category": "garbage",
+    "status": "needs_review",
+    "severity": "moderate",
+    "estimatedSizeOrFlow": "~1.8 m³ stacked bags and cardboard",
+    "confidenceScore": 68,
+    "requiresHumanReview": true,
+    "reviewReason": "Confidence 68% — mixed residential bin overflow vs. illegal commercial dumping.",
+    "locationLabel": "Maple Terrace Lane, Lot 42",
+    "lat": 37.7734,
+    "lng": -122.4215,
+    "affectedCount": 5,
+    "createdAt": "2026-11-22T05:19:27.551Z",
+    "updatedAt": "2026-11-22T05:19:27.551Z",
+    "officialLanguage": "English",
+    "officialSummary": "Substantial pile of black refuse bags and flattened cardboard stacked around Bin #42 on Maple Terrace Lane, obstructing half of the paved pedestrian walkway. Flagged for staff distinction between missed pickup and illegal dumping.",
+    "extractedDetails": [
+      "Sidewalk next to green municipal Bin #42",
+      "Includes cardboard cartons and ~10 refuse bags"
+    ],
+    "originalTranscript": "कचरा तीन दिन से नहीं उठाया गया है, पूरी सड़क पर फैल गया है।",
+    "detectedLanguage": "Hindi",
+    "privacyRedactedCount": 2,
+    "evidence": [
+      {
+        "id": "ev-103",
+        "submittedAt": "2026-11-22T05:19:27.551Z",
+        "imageUrl": "/src/assets/images/illegal_garbage_alley_1795364073161.jpg",
+        "voiceNoteOriginal": "कचरा तीन दिन से नहीं उठाया गया है, पूरी सड़क पर फैल गया है।",
+        "voiceLanguage": "Hindi",
+        "reporterTrustTier": "standard"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2026-11-22T05:19:27.551Z",
+        "actor": "Quality & Triage Gate",
+        "message": "Confidence below 75% threshold; routed to Human Review Queue for category confirmation.",
+        "status": "needs_review"
+      }
+    ],
+    "aiCorrectionLog": []
+  },
+  {
+    "id": "STL-4061",
+    "title": "Pressurized water bubbling from valve seam",
+    "category": "water_leak",
+    "status": "resolved",
+    "severity": "high",
+    "estimatedSizeOrFlow": "Steady bubbling stream along 6 m curb",
+    "confidenceScore": 93,
+    "requiresHumanReview": false,
+    "locationLabel": "Market & 9th Utility Valve Cover",
+    "lat": 37.7775,
+    "lng": -122.4152,
+    "affectedCount": 9,
+    "createdAt": "2026-11-18T16:19:27.551Z",
+    "updatedAt": "2026-11-22T08:19:27.551Z",
+    "officialLanguage": "English",
+    "officialSummary": "Clean potable water bubbling from cracked concrete expansion joint adjacent to municipal water valve box on Market & 9th. Repaired and valve gasket sealed by Water Utility Crew.",
+    "extractedDetails": [
+      "Adjacent to cast-iron water meter cover",
+      "Potable water pooling down gutter"
+    ],
+    "originalTranscript": "Water is bubbling up right next to the metal meter cover.",
+    "detectedLanguage": "English",
+    "privacyRedactedCount": 0,
+    "evidence": [
+      {
+        "id": "ev-104",
+        "submittedAt": "2026-11-18T16:19:27.551Z",
+        "imageUrl": "/src/assets/images/water_leak_sidewalk_1795364072942.jpg",
+        "voiceNoteOriginal": "Water is bubbling up right next to the metal meter cover.",
+        "voiceLanguage": "English",
+        "reporterTrustTier": "trusted"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2026-11-18T16:19:27.551Z",
+        "actor": "Citizen Intake",
+        "message": "Verified leak at utility valve seam.",
+        "status": "ai_verified"
+      },
+      {
+        "timestamp": "2026-11-20T16:19:27.551Z",
+        "actor": "Water Utility Dispatch",
+        "message": "Crew dispatched to inspect pressurized line.",
+        "status": "dispatched"
+      },
+      {
+        "timestamp": "2026-11-22T08:19:27.551Z",
+        "actor": "Water Utility Crew",
+        "message": "Gasket replaced and concrete seam sealed. Marked resolved.",
+        "status": "resolved"
+      }
+    ],
+    "aiCorrectionLog": []
+  }
+]
